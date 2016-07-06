@@ -1,0 +1,9 @@
+Structure:
+
+/
+  core/
+       <module_name>
+       ...
+  test/
+       <module_name_ts>
+       <module_name_tr>
