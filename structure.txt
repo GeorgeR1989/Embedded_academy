@@ -1,7 +1,7 @@
 Structure:
 
 /
-  core/
+  src/
        <module_name>
        ...
   test/
@@ -9,3 +9,11 @@ Structure:
        <module_name_tr>
   arh/
        <module_name_design>
+  rev/
+       review1.txt
+       review2.txt
+       ...
+/
+
+
+end of project
