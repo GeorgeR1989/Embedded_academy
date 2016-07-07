@@ -1,0 +1,29 @@
+Module list / role:
+
+1) Temperature module 
+The module should be able to output in a float format the temperature gathered from the temperature sensor, both the value in F and in C degrees
+Hint: Gather the documentation of the physical sensor and construct the mechanism that generate the proper outputs
+
+2) Pushbutton module
+The module should be able to handle the inputs from the PCB's push buttons
+Hint: Implement a debouncer that will record properly the key stroke.
+
+3) RGB LED module
+The module should be able to calculate the proper values for the PWM which will controll the RGB LED of the PCB
+
+4) Joystick module
+The module should be able to handle the inputs from the PCB's joystick
+Hint: Implement a debouncer that will record properly the joystick selection
+
+5) OLED display handling module
+The module should be able to receive the information from other modules and to display it
+
+6) Rotary button module 
+The module should be able to handle the input from the rotary button.
+Hint: Implement a debouncer that will record properly the position of the rotary button
+
+7) Buzzer module
+The module should be able to receive input information and to output it as sound with various frequency
+
+8) Segment display module
+The module should be able to display all possible digits/letter combinations for one symbol
