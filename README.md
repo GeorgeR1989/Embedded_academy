@@ -1,3 +1,6 @@
-# test
+Structure of the embedded academy.
 
-This is a test project.
+Purpose:
+Construct list of modules that need to be created
+Create structure of project
+Detail project name
