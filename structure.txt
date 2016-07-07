@@ -1,19 +1,27 @@
-Structure:
+Folder Structure:
 
-/
+<root>
   src/
        <module_name>
-       ...
+       {Add here a folder for each module}
   test/
        <module_name_ts>
+       {Add here a folder for each module. Inside each folder of this type, add a document with a test specification}
        <module_name_tr>
+       {Add here a folder for each module. Inside each folder of this type, add a document with the test report. The test report must be made for each modification and must be correlated with the test specification mentioned above}
   arh/
        <module_name_design>
+       {Add here a folder for each module. Inside each folder, add a document describing the software design}
   rev/
-       review1.txt
-       review2.txt
+       review_number_module_reviewobject.txt
+       {Add here a text document for each module, in order to track using reviews each change. The objects that will be reviewed will be the system design, the test specification and the source files
        ...
 /
 
 
 end of project
+
+Final notes:
+- Each file will be incrementally added. GitHub is a revisioning tool that allows using the same name on various file revisions
+- Track each change using Git's difference tool, in order to see what was added, what was changed, what was removed and perform reviews on these modifications
+- Every time you make a modification, add relevant notes regarding the modifications made. For new items, add "Initial revision"
