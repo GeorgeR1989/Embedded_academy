@@ -1,1 +1,2 @@
-
+1) Create a github account from here: https://github.com/join (using the free public version).
+2) Create a repository with the structure from https://github.com/GeorgeRobu/Embedded_academy/blob/master/structure.txt
