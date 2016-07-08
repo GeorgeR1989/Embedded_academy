@@ -1,1 +1,13 @@
+Project name: "Demo of EA-XPR-021 features"
+Project purpose: 
+- Demonstrate the functionality of each feature of the expansion board
+- Implement a module for each functionality
 
+Project structure:
+Consider the following demo functions (the demo number will be displayed on the segment digit):
+0: Idle state
+1: Temperature (display on LCD display the ambient temperature). By pressing any pushbutton, change from C to F
+2: RGB LED demo (make the LED change with a random frequency the color)
+3: Joystick demo (control the buzzer sound by joystick movement). If the joystick is pressed up/down, increase/drecrease volume. If the joystick is pressed left/right, increase/decrease frequency. 
+
+Switch through the cases 0-3 using the rotary encoder. Warp around between demo programs 0 and 3
